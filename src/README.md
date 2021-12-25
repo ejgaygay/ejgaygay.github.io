@@ -1,1 +1,1 @@
-<p>Just holds the source html files. Nothing too interesting I guess.</p>
+<p>Just holds the source files. Nothing too interesting I guess.</p>
