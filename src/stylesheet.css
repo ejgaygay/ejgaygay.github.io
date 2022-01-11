@@ -1,4 +1,28 @@
-.background-color {
-    background-color: cornflowerblue;
-    font-size : 144px;
+.backgroundImage {
+	opacity: 0.3;
 }
+
+.background {
+	background-color: grey;
+}
+
+.boxLinkText {
+	color: white;
+}
+
+.box {
+	opacity: 0.0;
+	padding: 25px;
+	margin: 20px;
+	width: 200px;
+	border: 5px solid white;
+	text-align: center;
+}
+
+.box: hover {
+	opacity: 0.2;
+}
+
+.boxContainer {
+	vertical-align: middle;
+} 
