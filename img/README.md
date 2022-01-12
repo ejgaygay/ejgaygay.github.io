@@ -1,3 +1,3 @@
 <h1>Royalty Free Images Used</h1>
-![bg2](bg2.jpeg)
-![bg3](bg3.jpg)
+<img src = "bg2.jpeg"/>
+<a href="https://wallpapercave.com/wp/wp6269197.jpg">https://wallpapercave.com/wp/wp6269197.jpg</a>
