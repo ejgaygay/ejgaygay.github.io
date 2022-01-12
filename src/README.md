@@ -1,1 +1,1 @@
-<p>Just holds the source files. Nothing too interesting I guess.</p>
+<p>Holds source stylesheet file and other javascript files. Nothing too special.</p>
