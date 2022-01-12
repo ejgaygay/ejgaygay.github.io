@@ -1,3 +1,3 @@
 <h1>Royalty Free Images Used</h1>
-![image1](bg2.jpeg)
-![image2](bg3.jpg)
+![bg2](bg2.jpeg)
+![bg3](bg3.jpg)
