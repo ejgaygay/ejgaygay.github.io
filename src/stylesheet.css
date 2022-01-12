@@ -19,6 +19,8 @@ body {
 /*background over the background image*/
 .background {
 	background-color: darkgrey;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
 }
 
 /*Linktree style box uses white text*/
