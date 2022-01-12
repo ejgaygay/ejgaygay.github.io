@@ -1,3 +1,5 @@
+/* -----general tag styling----- */
+
 /*removes side bar scrollings and removes white border around the body*/
 body {
 	overflow-x: hidden;
@@ -5,21 +7,18 @@ body {
 	margin:0;
 }
 
-/*set up the background image.*/
-.backgroundImage {
-	opacity: 0.5;
-	height: 100vh;
-	width: 100vw;
-	/*set it up to be center and such*/
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+/*Linktree style box styling when hovered*/
+a:link {
+	color: inherit;
+	text-decoration: none;
 }
+
+
+/* -----index html styling----- */
 
 /*background over the background image*/
 .background {
 	background-color: darkgrey;
-	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -39,7 +38,7 @@ body {
 	width: 300px;
 	border: 2px solid white;
 	text-align: center;
-	opacity: 1;
+	opacity: .8;
 }
 
 .box:hover {
@@ -48,15 +47,8 @@ body {
 	margin: 5px;
 	width: 300px;
 	text-align: center;
-	opacity: 0.6;
+	opacity: 1;
 }
-
-/*Linktree style box styling when hovered*/
-a:link {
-	color: inherit;
-	text-decoration: none;
-}
-
 
 /*Set up the boxes to be in the center of the page*/
 .boxContainer {
@@ -66,3 +58,24 @@ a:link {
 	top: 50%;
 	transform: translate(-50%,-50%);
 } 
+
+/* -----<project page styles>----- */
+
+.project {
+	padding: 10px;
+	margin: 5px;
+	border: 2px solid white;
+	width: 300px;
+	opacity: 0.8;
+}
+
+.project:hover {
+	opacity: 1;
+}
+
+.projectText {
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+	text-align: center;
+}
