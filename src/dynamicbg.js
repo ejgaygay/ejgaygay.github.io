@@ -1,20 +1,18 @@
-var background = "green";
-
+//sets/changes the background of the page
 function changeBackground() {
-	//
 	var backgroundNumber = Math.floor(Math.random()*3) + 1;
 	console.log(backgroundNumber);
-	if (backgroundNumber == 0) {
-		console.log("got a zero");
-	}
-	document.body.style.backgroundColor = "black";
-	window.background = "black";
 	if (backgroundNumber == 1) {
-		document.body.style.backgroundColor = "red";
-		window.background = "red";
+		document.body.style.backgroundColor = "black";
+	}
+	else if (backgroundNumber == 2) {
+		document.body.style.backgroundColor = "darkgrey";
+	}
+	else {
+		document.body.style.backgroundColor = "dimgray";
 	}
 
-	console.log(window.background);
+	localStorage.setItem("backgroundColor",document.body.style.backgroundColor);
 	//changes the background!
 	//directory starts at index.html location
 	//change up first background image
@@ -33,9 +31,13 @@ function changeBackground() {
 
 }
 
-console.log(window.background);
-
+//sets the background whenever a new page opens
 function newPage(){
-	//console.log(window.background);
-	document.body.style.backgroundColor = window.background;
+	//on new user first visit, set a background
+	if (document.body.style.backgroundColor == null) {
+		changeBackground();
+	}
+	else {
+		document.body.style.backgroundColor = localStorage.getItem("backgroundColor");
+	}
 }
