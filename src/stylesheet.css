@@ -59,8 +59,7 @@ a:link {
 .project {
 	padding: 10px;
 	margin: 5px;
-	border: 2px solid white;
-	width: 300px;
+	width: 500px;
 	opacity: 0.8;
 }
 
@@ -69,8 +68,23 @@ a:link {
 }
 
 .projectText {
+	text-decoration: underline;
 	color: white;
 	font-family: Verdana;
 	font-size: 14px;
 	text-align: center;
+}
+
+.projectContainer {
+	vertical-align: middle;
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	transform: translate(-50%,-15%);
+}
+
+.projectVideos {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
