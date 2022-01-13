@@ -1,2 +1,2 @@
 <h1>Royalty Free Images Used</h1>
-<p>Out of fear for copyright and other legal issues, for now I don't have any images on the site, however I will add some soon.</p>
+<p>All images have been taken from <a href="unsplash.com">Unsplash</a></p>
