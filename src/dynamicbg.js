@@ -13,28 +13,15 @@ function changeBackground() {
 	}
 
 	localStorage.setItem("backgroundColor",document.body.style.backgroundColor);
-	//changes the background!
 	//directory starts at index.html location
-	//change up first background image
-	/*if (backgroundNumber == 1) {
-		console.log("here");
-		document.body.style.background = "url(img/bg2.jpeg)";
-	}*/
-	/*
-	if (backgroundNumber == 2){
-		document.body.style.background = "url(img/bg.jpg)";
-	}
-	else {
-		document.body.style.background = "url(img/bg3.jpg)";
-	}
-	*/
+	//enter code to use background images here.
 
 }
 
 //sets the background whenever a new page opens
 function newPage(){
 	//on new user first visit, set a background
-	if (document.body.style.backgroundColor == null) {
+	if (localStorage.getItem("backgroundColor") == null) {
 		changeBackground();
 	}
 	else {
