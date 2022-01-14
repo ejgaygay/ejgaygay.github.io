@@ -88,3 +88,10 @@ a:link {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* -----<About me styling>----- */
+
+.profilePhoto {
+	border-radius: 50%;
+
+}
