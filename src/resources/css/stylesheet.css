@@ -1,9 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Set up the background color. */
-body {
+.body {
     background-color: rgb(72, 40, 255);
     font-family: sans-serif;
-    max-width: 720px;
+    max-width: 50%;
     margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .normal-text-style {
@@ -11,8 +23,20 @@ body {
     opacity: 100%
 }
 
+.traits {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .link-box-container {
-    margin-top:7vh;;
+    margin-top:7vh;
+}
+
+.header {
+    display:flex; 
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
  
 /* Text used on the link boxes */
@@ -37,14 +61,16 @@ body {
     cursor:pointer;
 }
 
-.header {
-    display: table-cell;
+.link-box-container {
+    height:65vh;
 }
 
 .social-image {
     border-color: plum;
     border-radius: 50%;
     border-style: solid;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .social-image:hover {
@@ -52,12 +78,12 @@ body {
 }
 
 .profile-picture {
-    margin-top:50px;
+    margin-top:7px;
     border-radius: 50%;
     border-color: plum;
     border-style: solid;
-    height: 256px;
-    max-width: 256x;
+    height: 128px;
+    max-width: 128pxx;
 }
 
 
