@@ -7,11 +7,24 @@
     <meta name="description" content="Personal webpage for ME!"/>
     <meta name="author" content="ME, EJ Gaygay" />
     <meta name="keywords" content="HTML, CSS, Javascript" />
-    <link rel="stylesheet" href="./src/css/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="./src/resources/css/stylesheet.css" type="text/css" />
     <style type="text/css">.body { width: auto; }</style>
   </head>
 
-  <body>
-    <p>Welcome world.</p>
+  <body class="normal-text-style">
+    <!--<div id = "pfp"><img class = "profile-picture" src = "./src/resources/img/profilepic.jpg"></div>-->
+    <div id = "pic-and-socials" class = "header">
+        <div style="width:45vw"><img class = "profile-picture" src = "./src/resources/img/profilepic.jpg"></div>
+        <div>
+            <a href = "https://github.com/ejgaygay" target="_blank"><img class = "social-image" src="./src/resources/img/GitHub-Mark-Light-64px.png"></a>
+            <a href = "https://www.linkedin.com/in/eldyjohn-gaygay-910651200/" target="_blank"><img class = "social-image" style = "height: 64px; width: 64px" src="./src/resources/img/linkedin.jpeg"></a>
+        </div>
+    </div>
+    <div id = "link-box-container" class = "link-box-container">
+        <div style = "display:block" onclick = "location.href = './src/pages/aboutme.html'" id = "box-item-1" class = "link-box-general"><p class = "link-text-style">About me</p></div>
+        <div onclick = "" id = "box-item-1" class = "link-box-general"><p class = "link-text-style">Projects</p></div>
+        <div onclick = "" id = "box-item-1" class = "link-box-general"><p class = "link-text-style">Powerlifting</p></div>
+        <div onclick = "" id = "box-item-1" class = "link-box-general"><p class = "link-text-style">Academia</p></div>
+    </div>
   </body>
 </html>

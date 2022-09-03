@@ -1,0 +1,67 @@
+/* Set up the background color. */
+body {
+    background-color: rgb(72, 40, 255);
+    font-family: sans-serif;
+    max-width: 720px;
+    margin: auto;
+}
+
+.normal-text-style {
+    color:white;
+    opacity: 100%
+}
+
+.link-box-container {
+    margin-top:7vh;;
+}
+ 
+/* Text used on the link boxes */
+.link-text-style {
+    text-align: center;
+    color: white;
+}
+
+/* General style things for the link boxes */
+.link-box-general {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    opacity: 50%;
+}
+
+.link-box-general:hover {
+    opacity: 100%;
+    background-color:rgb(217, 217, 217);
+    cursor:pointer;
+}
+
+.header {
+    display: table-cell;
+}
+
+.social-image {
+    border-color: plum;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.social-image:hover {
+    cursor: pointer;
+}
+
+.profile-picture {
+    margin-top:50px;
+    border-radius: 50%;
+    border-color: plum;
+    border-style: solid;
+    height: 256px;
+    max-width: 256x;
+}
+
+
+/* Smaller screens */
+@media (max-width:850px) {
+
+}
