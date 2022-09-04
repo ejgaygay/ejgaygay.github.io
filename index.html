@@ -12,26 +12,60 @@
   </head>
 
   <body class="normal-text-style body">
-    <script>window.scrollTo(0,0)</script>
-    <div class = "header"><img class = "profile-picture" src = "./src/resources/img/profilepic.jpg"></div>
-    <div class = "traits">
-        <p>Hey, I'm EJ.</p>
-        <p style = "margin-top : 3px; margin-bottom: 3px;">Powerlifter</p>
-        <p style = "margin-top : 3px; margin-bottom: 3px;">Programmer</p>
-        <p style = "margin-top : 3px; margin-bottom: 3px;">Player</p>
-        <p style = "margin-top : 3px; margin-bottom: 3px;">Procrastinator</p>
-        <p style = "margin-top : 3px; margin-bottom: 3px;">Site in progress. Nothing works right now.</p>
-    </div>
-    <div class = "header">
-        <a href = "https://github.com/ejgaygay" target="_blank"><img class = "social-image" src="./src/resources/img/GitHub-Mark-Light-64px.png"></a>
-        <a href = "https://www.linkedin.com/in/eldyjohn-gaygay-910651200/" target="_blank"><img class = "social-image" style = "height: 64px; width: 64px" src="./src/resources/img/linkedin.jpeg"></a>
+    <div id = "tabs-top" class = "tabs-top">
+      <!--<div class = "header"><img class = "profile-picture" src = "./src/resources/img/profilepic.jpg"></div>-->
+      <div class = "traits">
+        <div>
+          <p>Hey, I'm EJ.</p>
+          <p style = "margin-top : 3px; margin-bottom: 15px;">Site in progress. Nothing works right now.</p>
+        </div>
+      </div>
+      <div class = "content">
+          <a href = "https://github.com/ejgaygay" target="_blank"><img class = "social-image" src="./src/resources/img/GitHub-Mark-Light-64px.png"></a>
+          <a href = "https://www.linkedin.com/in/eldyjohn-gaygay-910651200/" target="_blank"><img class = "social-image" style = "height: 64px; width: 64px" src="./src/resources/img/linkedin.jpeg"></a>
+      </div>
+
+      <div id = "link-box-container" class = "link-box-container">
+          <div onclick = "gotoId('about-me')" id = "box-item-1" class = "link-box-general"><p class = "link-text-style">About me</p></div>
+          <div onclick = "gotoId('projects')" id = "box-item-2" class = "link-box-general"><p class = "link-text-style">Projects</p></div>
+          <div onclick = "" id = "box-item-3" class = "link-box-general"><p class = "link-text-style">Powerlifting</p></div>
+          <div onclick = "" id = "box-item-4" class = "link-box-general"><p class = "link-text-style">Academia</p></div>
+      </div>
     </div>
 
-    <div id = "link-box-container" class = "link-box-container">
-        <div onclick = "gotoId('box-item-4')" id = "box-item-1" class = "link-box-general"><p class = "link-text-style">About me</p></div>
-        <div onclick = "" id = "box-item-2" class = "link-box-general"><p class = "link-text-style">Projects</p></div>
-        <div onclick = "" id = "box-item-3" class = "link-box-general"><p class = "link-text-style">Powerlifting</p></div>
-        <div onclick = "" id = "box-item-4" class = "link-box-general"><p class = "link-text-style">Academia</p></div>
+    <div>
+      <div id = "about-me" style = "height:110vh">
+        <h1 style = "text-align: center">About EJ</h1>
+        <p>Hello!</p>
+        <p>I am EJ.</p>
+        <p>A junior Computer Science major at <a class = "links" href="https://www.gmu.edu/">George Mason University</a>.</p>
+        <p>My hobbies include playing video games, hitting the gym, or hitting the (e)books.</p>
+        <p>My game taste generally varies based on what my group likes to play. The current king taking up most
+          of my time right now is 
+          <a class = "links" href = "https://www.ea.com/games/apex-legends">Apex Legends</a>.</p>
+        <p>I am also an avid anime fan. However, I am currently in an anime slump and have yet to watch recently.
+          My all time favorite anime/manga is <a class = "links" href = "https://www.google.com/search?q=my+hero+academia&oq=my+hero+academia&aqs=chrome.0.0i271j46i131i433i512j0i131i433i512j0i433i512j46i433i512j0i20i263i433i512j0i512j0i131i433i512j0i512l2.1561j0j7&sourceid=chrome&ie=UTF-8">
+            My Hero Academia
+          </a>. Other favorites include:
+        </p>
+        <p>Black clover</p>
+        <p>Hunter X Hunter</p>
+        <p>Tokyo Revengers</p>
+        <p>Don't Toy With Me Miss Nagatoro</p>
+        <p>Teasing Master Takagi-San</p>
+        <p>I still have to import my anime list into MyAnimeList but it is all in my notes.</p>
+      </div>
+
+      <div id = "projects" style = "height: 110vh">
+        <h1>EJ's Projects</h1>
+        <p>Welcome to my personal projects!</p>
+        <p>With my experience in: C, Java, Python, and HTML/CSS/Javascript, here's what I've made so far:</p>
+        <h2 style = "text-align: center">Personal Projects:</h2>
+        <div class = "project-box">
+          <p style = "vertical-align: center; line-height:27.5%; font-weight: bold">Personal Website (This)</p>
+        </div>
+        <h2 style = "text-align: center">School Projects:</h2>
+      </div>
     </div>
 
     <!-- Here and beyond place the top tabs -->

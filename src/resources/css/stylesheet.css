@@ -4,7 +4,8 @@ html {
 
 /* Set up the background color. */
 .body {
-    background-color: rgb(72, 40, 255);
+    background-color: rgb(48, 11, 254);
+    background-image: linear-gradient(to right, #2d388a, #00aeef);
     font-family: sans-serif;
     max-width: 50%;
     margin: auto;
@@ -16,6 +17,10 @@ p {
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    text-align: center;
 }
 
 .normal-text-style {
@@ -32,7 +37,7 @@ a {
     margin-top:7vh;
 }
 
-.header {
+.content {
     display:flex; 
     justify-content: center;
     margin-top: 5px;
@@ -78,15 +83,29 @@ a {
 
 .profile-picture {
     margin-top:7px;
-    border-radius: 50%;
+    border-radius: 3px;
     border-color: plum;
     border-style: solid;
     height: 128px;
     max-width: 128pxx;
 }
 
+.tabs-top {
+    margin-top: 10px;
+    height: 115vh;
+}
 
-/* Smaller screens */
-@media (max-width:850px) {
+.links {
+    color:white;
+    text-decoration: underline;
+}
 
+.project-box {
+    min-width: 20%;
+    min-height: 45%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
 }
