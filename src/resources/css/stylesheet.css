@@ -109,3 +109,23 @@ h1, h2, h3 {
     border-color: white;
     border-radius: 4px;
 }
+
+.about-me {
+    height:150vh; 
+    margin-top: 3vh; 
+    margin-bottom: 3vh
+}
+
+@media (max-width: 800px) {
+    /* Project box for smaller screens - Phones. */
+    .project-box {
+        min-width: 75%;
+        min-height: 35%;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 4px;
+    }
+}
+
