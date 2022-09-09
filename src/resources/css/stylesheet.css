@@ -127,5 +127,18 @@ h1, h2, h3 {
         border-color: white;
         border-radius: 4px;
     }
+
+    .about-me {
+        height: 1000px;
+    }
+
+    .projects {
+        height: 2000px;
+    }
+
+    .tabs-top {
+        margin-top: 10px;
+        height: 500px;
+    }
 }
 
