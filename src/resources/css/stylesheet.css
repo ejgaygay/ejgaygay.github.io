@@ -128,6 +128,12 @@ h1, h2, h3 {
     margin-bottom: 3vw
 }
 
+.academia {
+    height: 150vh; 
+    margin-top: 3vh; 
+    margin-bottom: 3vw
+}
+
 @media screen and (max-width: 800px),
  (max-height: 400px)  {
     /* Project box for smaller screens - Phones. */
@@ -150,6 +156,10 @@ h1, h2, h3 {
     }
 
     .powerlifting {
+        height: 2000px;
+    }
+
+    .academia {
         height: 2000px;
     }
 
